@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information about a personal Linux Mint backup application using rclone and Restic.">
+    <title>Linux Mint Backup - rclone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 0 24px;
+            color: #222;
+            background-color: #fafafa;
+        }
+        h1, h2 { color: #234b70; }
+        a { color: #1769aa; }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Linux Mint Backup - rclone</h1>
+
+        <p>
+            Linux Mint Backup - rclone is a privately operated,
+            noncommercial backup configuration used to protect
+            personal files on a Linux Mint computer.
+        </p>
+
+        <h2>Purpose</h2>
+
+        <p>
+            The configuration uses rclone to connect to Google Drive
+            and Restic to create encrypted, versioned backups.
+        </p>
+
+        <h2>How It Works</h2>
+
+        <p>
+            Restic encrypts backup contents locally before they are
+            uploaded to Google Drive through rclone.
+            The backup system is operated by the account owner
+            and is not offered as a service to other users.
+        </p>
+
+        <h2>Google Drive Access</h2>
+
+        <p>
+            The application requests Google Drive authorization
+            to create, read, update, and manage backup files.
+            Access is used solely for the account owner's
+            personal backup and recovery operations.
+        </p>
+
+        <h2>Privacy</h2>
+
+        <p>
+            For information about data handling and Google Drive
+            permissions, please read the
+            <a href="privacy.html">Privacy Policy</a>.
+        </p>
+    </main>
+
+    <footer>
+        <p>
+            This is an independent personal backup configuration.
+            It is not affiliated with Google, rclone, Restic,
+            or the Linux Mint project.
+        </p>
+    </footer>
+</body>
+</html>
